@@ -1,0 +1,20 @@
+{
+    "name": "nanboku-lcd1602",
+    "version": "1.0.0",
+    "description": "仙台市営地下鉄南北線のアナウンス文に出る漢字・ひらがなを LCD1602(I2C) に表示する micro:bit 用ライブラリ",
+    "dependencies": {
+        "core": "*"
+    },
+    "files": [
+        "README.md",
+        "nanbokulcd.ts",
+        "nanbokufont.ts"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "public": true,
+    "targetVersions": {
+        "target": "5.0.12"
+    }
+}
